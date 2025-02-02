@@ -6,21 +6,20 @@ const FlatCards = () => {
     <View style={styles.container}>
       <Text style={styles.headingText}>FlatCards</Text>
       <View style={styles.cards}>
-        <View style={[styles.cardCommon,styles.cardOne]}>
+        <View style={[styles.cardCommon, styles.cardOne]}>
           <Text>Red</Text>
         </View>
-        
-        <View style={[styles.cardCommon,styles.cardTwo]}>
+
+        <View style={[styles.cardCommon, styles.cardTwo]}>
           <Text>Blue</Text>
         </View>
 
-        <View style={[styles.cardCommon,styles.cardThree]}>
+        <View style={[styles.cardCommon, styles.cardThree]}>
           <Text>Green</Text>
         </View>
-
-        
-
-        
+        <View style={[styles.cardCommon, styles.cardFour]}>
+          <Text>Purple</Text>
+        </View>
       </View>
     </View>
   );
@@ -30,19 +29,20 @@ export default FlatCards;
 
 const styles = StyleSheet.create({
   container: {
-    padding: 12,
+    // padding: 12,
   },
   headingText: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: 'white',
+    color: 'black',
     marginVertical: 10,
   },
   cards: {
     // backgroundColor:"yellow",
-    flex:1,
-    flexDirection:"row",
-    justifyContent:"space-between"
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    // backgroundColor:"gray"
   },
   cardCommon: {
     height: 100,
@@ -50,18 +50,17 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 12,
-    margin:10
   },
   cardOne: {
-    backgroundColor: 'red',
+    backgroundColor: '#EB5A3C',
   },
   cardTwo: {
-    backgroundColor: 'blue',
+    backgroundColor: '#DF9755',
   },
   cardThree: {
-    backgroundColor: 'green',
+    backgroundColor: '#E7D283',
   },
   cardFour: {
-    backgroundColor: 'purple',
+    backgroundColor: '#EDF4C2',
   },
 });
