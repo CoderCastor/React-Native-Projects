@@ -10,7 +10,7 @@ import React from 'react';
 import Icon from 'react-native-vector-icons/dist/Feather';
 
 const NearbyPlaces = () => {
-  return (
+  return (  
     <View>
       <View style={styles.NearbyPlacesTitleFlex}>
         <Text style={styles.headingText}>Nearby Places</Text>

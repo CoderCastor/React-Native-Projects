@@ -4,6 +4,7 @@ import FlatCards from './components/FlatCards';
 import ElevatedCards from './components/ElevatedCards';
 import TrendingPlaces from './components/TrendingPlaces';
 import NearbyPlaces from './components/NearbyPlaces';
+import ActionCard from './components/ActionCard';
 
 const AppOne = () => {
   return (
@@ -14,6 +15,7 @@ const AppOne = () => {
         <ElevatedCards/>
         <TrendingPlaces/>
         <NearbyPlaces/>
+        <ActionCard/>
       </ScrollView>
     </SafeAreaView>
   );
